@@ -1,0 +1,7 @@
+__pycache__/
+
+# Virtual Environment
+ll_env/
+
+# Database
+db.sqlite3

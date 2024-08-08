@@ -1,0 +1,6 @@
+<p>
+  <a href="{% path 'learning_logs:index' %}">Learning Log</a> -
+  <a href="{% path 'learning_logs:topics' %}">Topics</a>
+</p>
+
+{% block content %}{% endblock content %}
