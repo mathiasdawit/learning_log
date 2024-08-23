@@ -4,7 +4,7 @@ from django.urls import reverse
 from django.contrib.auth.decorators import login_required
 
 from . models import Topic, Entry
-from .forms import TopicForm, EntryForm
+from . forms import TopicForm, EntryForm
 
 # Create your views here.
 def index(request):
