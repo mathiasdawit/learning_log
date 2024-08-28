@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 import django_heroku
-import dj_database_url
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -154,8 +153,7 @@ if cwd == '/app' or cwd[:4] == '/tmp':
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
     # Allow only Heroku to host a project.
-    ALLOWED_HOSTS = ['*']
-    # 'learning-logger-e31daec1232d.herokuapp.com' 
+    ALLOWED_HOSTS = ['learning-logger-e31daec1232d.herokuapp.com']
 
     DEBUG = False
 
